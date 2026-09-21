@@ -1,0 +1,22 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Assembly (NASM / DASM)
+[*.{asm,dasm,s,inc}]
+indent_style = tab
+indent_size = 8
+tab_width = 8
+
+# Build systems & docs
+[Makefile]
+indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false

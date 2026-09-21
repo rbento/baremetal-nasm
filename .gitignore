@@ -1,0 +1,52 @@
+# Prerequisites & Build Output
+/build/
+/bin/
+/dist/
+/target/
+
+# Object & Dependency Files
+*.o
+*.obj
+*.d
+
+# Static & Dynamic Libraries
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Binaries / Target Executables
+*.elf
+*.bin
+*.out
+*.hex
+
+# Debugger & Diagnostics
+.cache/
+.gdb_history
+gdb.txt
+core
+core.*
+vgcore.*
+
+# Vim Artifacts
+.*.sw[a-p]
+.*.swo
+.*.swp
+*.sw[a-p]
+*.swo
+*.swp
+.*.un~
+*~
+.*~
+
+# Emacs Auto-save Files
+\#*\#
+
+# Ctags / Symbol Indices
+tags
+tags.lock
+tags.temp
+TAGS
